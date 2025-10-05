@@ -1,8 +1,8 @@
+
 # 🪜 NextStep – AI Career Assistant  
 _Final Project — Hacktiv8 Maju Bareng AI IT Developer Program_
 
 > “Big journeys start small — take your next step.” ✨
-
 ---
 
 ## 🌟 Overview
@@ -13,11 +13,13 @@ a friendly and supportive chatbot designed to help fresh graduates build confide
 💬 The chatbot provides:  
 - 💡 Career tips and insights for young professionals  
 - 🗣️ Guidance to improve self-presentation and confidence  
-- 🌱 Encouragement to grow and take small steps forward  
+- 🌱 Encouragement to grow and take small steps forward 
+
+![Alt text](docs/assets/solution2.png)
 
 🧠 Powered by **Gemini 2.5 Flash**, built with **Express.js** and **Vanilla JavaScript**,  
 and designed with a clean, responsive UI inspired by pastel tones and minimalism.
-
+![Alt text](docs/assets/solution.png)
 ---
 
 ## 🚀 Live Demo
