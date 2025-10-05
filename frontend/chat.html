@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NextStep - Shine Brighter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+<body>
+  <!-- Cute floating background decoration -->
+  <div class="bg-decor">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+    <span class="spark s1">✦</span>
+    <span class="spark s2">✧</span>
+    <span class="spark s3">✦</span>
+  </div>
+
+  <div class="container">
+    <app-header></app-header>
+
+    <!-- First bot message + conversation container -->
+    <chat-box></chat-box>
+
+    <!-- Input form -->
+    <chat-form></chat-form>
+  </div>
+
+  <!-- About modal lives outside container to simplify stacking -->
+  <about-modal hidden></about-modal>
+
+  <!-- Marked for Markdown rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- App modules (order matters only for app.js which wires everything) -->
+  <script type="module" src="./components/Header.js"></script>
+  <script type="module" src="./components/AboutModal.js"></script>
+  <script type="module" src="./components/ChatBox.js"></script>
+  <script type="module" src="./components/ChatForm.js"></script>
+  <script type="module" src="./utils/api.js"></script>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
